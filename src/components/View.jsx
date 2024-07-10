@@ -5,6 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
+import { Link } from 'react-router-dom';
 
 
 
@@ -26,8 +27,8 @@ const View = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
            MyAPP
           </Typography>
-          <Button color="inherit">View</Button>
-          <Button color="inherit">Add</Button>
+          <Link to ={'/'}><Button style={{color:"white"}}>View</Button></Link>
+          <Link to ={'/add'}><Button style={{color:"white"}}>Add</Button></Link>
         </Toolbar>
       </AppBar>
     </Box>
