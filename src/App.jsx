@@ -22,12 +22,6 @@ function App() {
           <Route path="/" element={<Records/>}></Route>
           <Route path="/add" element={<Add person ={{fname:"swathi",department:"EC",semester:"s4"}} />} ></Route>
         </Routes>
-        
-
-        
-        {/* <Sample/> */}
-        
-     
     </>
   )
 }
